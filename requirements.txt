@@ -1,5 +1,5 @@
-Flask
-streamlit
-pandas
-numpy
-scikit-learn
+streamlit==0.65.0
+pandas==1.0.1
+numpy==1.18.1
+scikit-learn==0.22.1
+spyder==4.0.1

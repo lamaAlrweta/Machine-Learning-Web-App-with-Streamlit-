@@ -1,4 +1,3 @@
-from flask import Flask
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -10,9 +9,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import plot_confusion_matrix, plot_roc_curve, plot_precision_recall_curve
 from sklearn.metrics import precision_score, recall_score
 
-app2 = Flask(__name__)
-
-@app2.route("/")
 def main():
     st.title("Binary Classification Web App")
     st.sidebar.title("Binary Classification Web App")

@@ -7,7 +7,7 @@ let them interactively set hyper-parameter values.
 
 The web app was built in Python using the following libraries:
 
-streamlit
-pandas
-numpy
-scikit-learn
+-streamlit
+-pandas
+-numpy
+-scikit-learn

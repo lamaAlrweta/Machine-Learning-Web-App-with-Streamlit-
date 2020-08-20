@@ -30,7 +30,7 @@ def main():
         x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=0)
         return x_train, x_test, y_train, y_test
     
-     def plot_metrics(metrics_list):
+    def plot_metrics(metrics_list):
         if 'Confusion Matrix' in metrics_list:
             st.subheader("Confusion Matrix")
             plot_confusion_matrix(model, x_test, y_test, display_labels=class_names)

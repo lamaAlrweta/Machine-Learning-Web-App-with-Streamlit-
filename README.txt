@@ -1,4 +1,3 @@
-Penguins web app deployed on Heroku
 The deployed web app is live at https://ml-web-app1.herokuapp.com/
 
 the web application classify if the mushrooms edible or poisonous, It will allows users to
